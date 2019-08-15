@@ -1,0 +1,6 @@
+
+1. Create iOS Framework Project
+
+2. pod spec create RM.iOS.UIKit
+
+3. git push -u origin master --tags
