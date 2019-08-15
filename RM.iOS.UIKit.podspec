@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "RM.iOS.UIKit"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of RM.iOS.UIKit."
+  spec.summary      = "Reusable UIKit components."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/RM.iOS.UIKit"
+  spec.homepage     = "https://github.com/ruchira.lk@gmail.com/RM.iOS.UIKit"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/RM.iOS.UIKit.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => 'https://github.com/ruchira.lk@gmail.com/RM.iOS.UIKit.git', :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
