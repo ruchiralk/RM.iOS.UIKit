@@ -188,7 +188,7 @@
 		EA9BD1082305AEE5000F8BE0 /* RM.iOS.UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				EA9BD1542305AF3A000F8BE0 /* Test */,
+				EA9BD1552305AF59000F8BE0 /* TestOutput.swift */,
 				EA9BD1092305AEE5000F8BE0 /* RM_iOS_UIKit.h */,
 				EA9BD10A2305AEE5000F8BE0 /* Info.plist */,
 			);
@@ -246,14 +246,6 @@
 				DC0201A836B58BD0E0337509 /* Pods_SampleAppUITests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EA9BD1542305AF3A000F8BE0 /* Test */ = {
-			isa = PBXGroup;
-			children = (
-				EA9BD1552305AF59000F8BE0 /* TestOutput.swift */,
-			);
-			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
